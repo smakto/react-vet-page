@@ -1,0 +1,72 @@
+.pageHead {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.petsContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.petCard {
+  text-align: center;
+  width: 30%;
+  margin: 10px;
+  border: 1px solid rgb(223, 223, 223);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  font-size: smaller;
+  padding-bottom: 10px;
+}
+
+.petCard p {
+  margin: 10px;
+}
+
+.petCard button {
+  font-size: smaller;
+}
+
+.searchDiv {
+  width: 100%;
+  text-align: center;
+}
+
+.searchDiv input {
+  margin: 15px;
+}
+
+.themeSelector {
+  justify-content: center;
+  align-items: center;
+}
+
+.themeButton-light {
+  font-weight: bold;
+  padding: 5px 15px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.themeButton-dark {
+  font-weight: bold;
+  padding: 5px 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.colorSelect {
+  font-weight: bold;
+  padding: 5px 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+}

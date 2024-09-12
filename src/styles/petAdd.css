@@ -1,0 +1,24 @@
+.addFormWrap {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.addForm {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.addForm button {
+  width: 50%;
+  margin: 20px auto;
+}
+
+input {
+  margin: 5px;
+}
+
+label {
+  margin-top: 15px;
+}
